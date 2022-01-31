@@ -5,16 +5,18 @@ import "../sass/navbar.css";
 
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
+
   return (
     <>
       <nav className="main-nav">
         {/* First logo part */}
         <div className="logo">
           <h2>
-            <span>L</span>OKESH
-            <span>D</span>EBNATH
+            <span>L</span>okesh
+            <span>D</span>ebnath
           </h2>
         </div>
+
         {/* Second menu part */}
         <div
           className={
@@ -64,15 +66,15 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
+
+          {/* hamburget menu start  */}
+          <div className="faBars-menu">
+            <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+              <FaBars />
+            </a>
+          </div>
         </div>
       </nav>
-
-      {/* hamburget menu start  */}
-      <div className="faBars-menu">
-        <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
-          <FaBars />
-        </a>
-      </div>
 
       {/* HeroSection */}
       <section className="hero-section">

@@ -1,4 +1,3 @@
-@import "./mixin";
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
 
 * {
@@ -20,9 +19,6 @@ li {
   list-style: none;
 }
 
-.faBars-menu {
-  display: none;
-}
 // Main nav-bar style
 .main-nav {
   width: 100%;
@@ -109,31 +105,17 @@ li {
       }
     }
   }
+  .faBars-menu {
+    display: none;
+  }
 }
 
 // Hero Section
 .hero-section {
-  @include flexCenter();
-  flex-direction: column;
-  margin-top: 28rem;
+  display: grid;
   h1 {
-    font-size: 4.2rem;
-    font-weight: 400;
-    text-align: center;
-    position: relative;
-
-    .highlight {
-      // font-weight: 600;
-      font-family: inherit;
-    }
-
-    .h1__top {
-      display: inline-block;
-    }
-
-    .h1__bottom {
-      display: inline-block;
-    }
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -208,12 +190,11 @@ li {
         height: 0;
         display: none;
       }
-
-      .faBars-menu {
-        display: block;
-        font-size: 2.5rem;
-      }
     }
+  }
+  .faBars-menu {
+    display: -moz-grid-line;
+    font-size: 2.5rem;
   }
 }
 
@@ -268,9 +249,3 @@ li {
     }
   }
 }
-
-// .hero-section {
-//   h1 {
-//     font-size: 3.8rem;
-//   }
-// }
