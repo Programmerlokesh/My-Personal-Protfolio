@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 import { FaBars } from "react-icons/fa";
-import "../sass/navbar.css";
+import "../sass/main.css";
 
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
@@ -75,9 +75,8 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-
       {/* HeroSection */}
-      <section className="hero-section">
+      {/* <section className="container">
         <h1>
           <span className="h1__top">
             Hello, I'm <span className="highlight">Lokesh Debnath</span>.
@@ -85,7 +84,7 @@ const Navbar = () => {
           <br />
           <span className="h1__bottom">I'm a front-end web developer.</span>
         </h1>
-      </section>
+      </section> */}
     </>
   );
 };

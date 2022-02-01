@@ -1,26 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: "Jost", sans-serif;
-}
-
-html {
-  font-size: 62.5%;
-}
-
 a {
   text-decoration: none;
 }
 
 li {
   list-style: none;
-}
-
-.faBars-menu {
-  display: none;
 }
 
 .main-nav {
@@ -133,40 +116,8 @@ li {
   color: #3060c7;
 }
 
-.hero-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-top: 28rem;
-}
-
-.hero-section h1 {
-  font-size: 4.2rem;
-  font-weight: 400;
-  text-align: center;
-  position: relative;
-}
-
-.hero-section h1 .highlight {
-  font-family: inherit;
-}
-
-.hero-section h1 .h1__top {
-  display: inline-block;
-}
-
-.hero-section h1 .h1__bottom {
-  display: inline-block;
+.social-media .faBars-menu {
+  display: none;
 }
 
 /* responsive css style  */
@@ -264,8 +215,8 @@ li {
     height: 0;
     display: none;
   }
-  .main-nav .social-media .faBars-menu {
-    display: block;
+  .faBars-menu {
+    display: -moz-grid-line;
     font-size: 2.5rem;
   }
 }
@@ -302,15 +253,15 @@ li {
     -ms-grid-columns: 1rem 4fr 1fr 1fr 1rem;
         grid-template-columns: 1rem 4fr 1fr 1fr 1rem;
   }
-  .logo,
-  .social-media ul {
+  .main-nav .logo,
+  .main-nav .social-media ul {
     height: 6rem;
   }
-  .logo h2,
-  .social-media ul h2 {
+  .main-nav .logo h2,
+  .main-nav .social-media ul h2 {
     font-size: 2rem;
   }
-  .social-media {
+  .main-nav .social-media {
     height: 6rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -320,7 +271,7 @@ li {
         -ms-flex-align: center;
             align-items: center;
   }
-  .social-media .faBars-menu {
+  .main-nav .social-media .faBars-menu {
     display: block;
     font-size: 2.5rem;
   }

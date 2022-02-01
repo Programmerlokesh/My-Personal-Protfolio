@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  padding-top: 22rem;
+}
+
+.container h1 {
+  font-size: 3.5rem;
+  font-weight: normal;
+  align-items: center;
+}
+
+.container h1 .highlight {
+  background: -webkit-linear-gradient(#eee, #4539f8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.link-button {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  position: relative;
+}
+
+.link-button .github {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.link-button .projects {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.link-button .fa:hover {
+  opacity: 0.7;
+}
+
+@media (maxwidth: 56.25rem) {
+  .container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+  }
+}
+
+@media (maxwidth: 32.5rem) {
+  .container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+  }
+}
