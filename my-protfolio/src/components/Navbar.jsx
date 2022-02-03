@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
-import { FaBars } from "react-icons/fa";
+import { FcMenu } from "react-icons/fc";
 import "../sass/main.css";
 
 const Navbar = () => {
@@ -68,9 +68,9 @@ const Navbar = () => {
           </ul>
 
           {/* hamburget menu start  */}
-          <div className="faBars-menu">
+          <div className="fcBars-menu">
             <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
-              <FaBars />
+              <FcMenu />
             </a>
           </div>
         </div>

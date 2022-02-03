@@ -8,7 +8,7 @@ const Herosection = () => {
     <>
       {/* HeroSection */}
       <main>
-        <div className="container">
+        <div className="container_heroSection">
           <h1>
             <span className="h1__top">
               Hello, I'm <span className="highlight">Lokesh Debnath</span>.

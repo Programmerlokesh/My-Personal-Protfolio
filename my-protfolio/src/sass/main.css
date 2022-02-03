@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -131,7 +132,7 @@ li {
   color: #3060c7;
 }
 
-.social-media .faBars-menu {
+.social-media .fcBars-menu {
   display: none;
 }
 
@@ -232,7 +233,7 @@ li {
     height: 0;
     display: none;
   }
-  .faBars-menu {
+  .fcBars-menu {
     display: -moz-grid-line;
     font-size: 2.5rem;
   }
@@ -258,7 +259,7 @@ li {
     -ms-flex-align: center;
     align-items: center;
   }
-  .main-nav .social-media .faBars-menu {
+  .main-nav .social-media .fcBars-menu {
     display: block;
     font-size: 2.5rem;
   }
@@ -288,7 +289,7 @@ li {
     -ms-flex-align: center;
     align-items: center;
   }
-  .main-nav .social-media .faBars-menu {
+  .main-nav .social-media .fcBars-menu {
     display: block;
     font-size: 2.5rem;
   }
