@@ -6,14 +6,13 @@
   padding-left: 25rem;
   padding-right: 25rem;
   padding-top: 12rem;
+  padding-bottom: 8rem;
 }
 
 .container_about .about {
   display: flex;
   flex-direction: column;
-  height: 10rem;
-  /* border: 1px solid black; */
-  height: 59rem;
+  height: 65rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
@@ -129,6 +128,9 @@
   margin-left: 2.5rem;
   padding-top: 2.5rem;
   overflow: hidden;
+}
+.container_about .skills h3 {
+  font-weight: normal;
 }
 
 .container_about .skills .small_dash_skills {

@@ -1,0 +1,126 @@
+.services_container {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.services_container .services_heading {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.services_container .small_dash {
+  display: block;
+  height: 0.4rem;
+  width: 5rem;
+  margin-left: 91rem;
+  background-color: #e8e8e8;
+  margin-bottom: 5rem;
+}
+
+.strongpoint_section {
+  display: flex;
+  flex-direction: row;
+  padding-left: 28rem;
+  padding-right: 28rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  justify-content: space-between;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.strongpoint_section .fast {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  text-align: center;
+  padding: 4rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.strongpoint_section .fast h4 {
+  font-size: 2rem;
+  display: block;
+  margin-block-start: 0.33em;
+  margin-block-end: 0.33em;
+}
+.strongpoint_section p {
+  font-size: 2rem;
+}
+.strongpoint_section .fast_icon {
+  font-size: 4rem;
+  margin-left: 9.5rem;
+}
+
+.strongpoint_section .responsive {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.strongpoint_section .responsive h4 {
+  display: block;
+  font-size: 2rem;
+  margin-block-start: 0.33em;
+  margin-block-end: 0.33em;
+}
+.strongpoint_section p {
+  font-size: 2rem;
+  display: block;
+}
+.strongpoint_section .responsive_icon {
+  font-size: 4rem;
+  margin-left: 13rem;
+  margin-top: 3rem;
+}
+
+.strongpoint_section .semantic {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  text-align: center;
+  padding: 4rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.strongpoint_section .semantic h4 {
+  font-size: 2rem;
+  display: block;
+  margin-block-start: 0.33em;
+  margin-block-end: 0.33em;
+}
+.strongpoint_section p {
+  font-size: 2rem;
+}
+.strongpoint_section .semantic_icon {
+  font-size: 4rem;
+  margin-left: 7.8rem;
+}
+
+.strongpoint_section .dynamic {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  text-align: center;
+  padding: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.strongpoint_section .dynamic h4 {
+  font-size: 2rem;
+  display: block;
+  margin-block-start: 0.33em;
+  margin-block-end: 0.33em;
+}
+.strongpoint_section p {
+  font-size: 2rem;
+}
+.strongpoint_section .dynamic_icon {
+  font-size: 4rem;
+  margin-left: 12rem;
+  margin-top: 2rem;
+}
