@@ -1,6 +1,11 @@
 import React from "react";
 import { FcCalendar } from "react-icons/fc";
+import { GrReactjs } from "react-icons/gr";
 import { HiLocationMarker } from "react-icons/hi";
+import { ImHtmlFive } from "react-icons/im";
+import { IoLogoSass } from "react-icons/io";
+import { RiCss3Fill } from "react-icons/ri";
+import { SiJavascript, SiTailwindcss } from "react-icons/si";
 import "../css/About.css";
 
 const About = () => {
@@ -39,11 +44,50 @@ const About = () => {
 
           <div className="skills">
             <h3 className="working_skills">Skills</h3>
-            {/* <span className="small_dash"></span> */}
+            <span className="small_dash_skills"></span>
+          </div>
+
+          <div className="working_skillsbar">
+            <div className="skill_levelbox">
+              <span className="html">
+                <ImHtmlFive />
+              </span>
+              <span className="progress_html">90%</span>
+            </div>
+            <div className="skill_levelbox">
+              <span className="css">
+                <RiCss3Fill />
+              </span>
+              <span className="progress_css">70%</span>
+            </div>
+            <div className="skill_levelbox">
+              <span className="sass">
+                <IoLogoSass />
+              </span>
+              <span className="progress_sass">70%</span>
+            </div>
+            <div className="skill_levelbox">
+              <span className="javascript">
+                <SiJavascript />
+              </span>
+              <span className="progress_js">70%</span>
+            </div>
+
+            <div className="skill_levelbox">
+              <span className="tailwind">
+                <SiTailwindcss />
+              </span>
+              <span className="progress_tailwind">45%</span>
+            </div>
+            <div className="skill_levelbox">
+              <span className="react">
+                <GrReactjs />
+              </span>
+              <span className="progress_react">60%</span>
+            </div>
           </div>
         </div>
       </main>
-      <hr />
     </>
   );
 };
